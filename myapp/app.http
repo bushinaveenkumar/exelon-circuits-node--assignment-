@@ -1,0 +1,22 @@
+
+GET http://localhost:3000/cities/
+
+###
+POST http://localhost:3000/cities/
+Content-Type:application/json
+
+{
+    "id":2,
+  "name": "aBC",
+  "population": 100000,
+  "country": "XYZ",
+  "latitude": "10.10N",
+  "longitude": "10.10E"
+}
+
+###
+DELETE http://localhost:3000/cities/2/
+
+
+
+
